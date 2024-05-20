@@ -1,0 +1,33 @@
+
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.over {
+    overflow: hidden;
+    background-color: #28036a;
+
+}
+
+.centrar {
+    background-image: url(us.jpeg);
+
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen */
+    height: 199vh; /* Asegura que el body ocupe toda la altura de la ventana */
+    display: flex; /* Utiliza flexbox para centrar el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    color: #b695c0
+    ; /* Color del texto */
+    text-align: center; /* Centra el texto */
+}
+
+
+a {
+    color: red !important;
+    }
