@@ -31,13 +31,10 @@ var messages = [
 "Recuerda siempre expresar tu gratitud. Generado por IA hasta q se me ocurran mas mensajes <3",
 "El mejor momento para plantar un árbol fue hace 20 años. El segundo mejor momento es ahora. Generado por IA hasta q se me ocurran mas mensajes <3"
 */
-"Pagina en mantenimiento, ah re"
+"desde que estoy con vos me siento vivo "
 
 ];
 
-var photos = [
-    "ahre.jpg"
-];
 
 function displayMessage() {
     var today = new Date().toDateString();
@@ -50,7 +47,6 @@ function displayMessage() {
 
     var messageIndex = localStorage.getItem("messageIndex");
     document.getElementById("dailyMessage").innerText = messages[messageIndex];
-    document.getElementById("dailyPhoto").src = photos[messageIndex];
 }
 
 document.addEventListener("DOMContentLoaded", displayMessage);
